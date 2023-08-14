@@ -1,0 +1,18 @@
+#include <stdio.h>
+/*
+ *  main - beginning of excution
+ *
+ *  return: always 0 (success)
+ */
+int main(void) 
+{
+	/*
+	 * printing sizes of various types
+	 */
+ 	printf("size of a char: %zu byte()\n", sizeof(char));
+       	printf("size of an int: %zu byte()\n", sizeof(int));
+	printf("size of a long int: %zu byte(s)\n", sizeof(long int));
+	printf("size of a long long int: %zu byte()\n", sizeof(long long int));
+	printf("size of a float: %zu byte()\n", sizeof(float));
+	return (0);
+}
