@@ -22,6 +22,7 @@ int main(void)
 	else
 	{
 		printf("The number %d is negative\n", n);
+	}
 
 
 	return (0);
