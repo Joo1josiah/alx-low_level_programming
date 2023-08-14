@@ -1,9 +1,12 @@
 #include <stdio.h>
 
-/* main - Entry point of the program
+/**
+ *  main - Entry point of the program
+ *
  * Return: Always 0 (success)
  */
 int main(void)
+
 {
 	/*
 	 * printing sizes of various types
