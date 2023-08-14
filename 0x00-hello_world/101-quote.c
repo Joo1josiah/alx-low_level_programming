@@ -3,7 +3,7 @@
 /**
  * main - starts the program
  *
- *Return:always 1 (failure)
+ *Return: always 1 (failure)
  */
 
 int main(void) 
