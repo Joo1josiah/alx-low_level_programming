@@ -1,1 +1,1 @@
-This repository contains c programming codes.
+This repo contains c programming.
