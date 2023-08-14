@@ -6,7 +6,7 @@
  *Return: always 1 (failure)
  */
 
-int main(void) 
+int main(void)
 {
 
 	/*
