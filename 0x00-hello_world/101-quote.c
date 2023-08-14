@@ -1,7 +1,7 @@
 #include <unistd.h>
 /*
  * main - starts the program
- *Return: one
+ *Return:always 1 (failure)
  */
 int main(void) 
 {
