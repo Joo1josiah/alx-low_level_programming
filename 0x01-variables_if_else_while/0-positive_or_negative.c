@@ -3,7 +3,8 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* main - excution starts
+/**
+ * main - excution starts
  * Return: always zero
  */
 int main(void)
