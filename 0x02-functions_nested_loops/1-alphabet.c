@@ -1,12 +1,17 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0.
+ * print alphabet - Prints the lowercase alphabet followed by a new line
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char letter = 'a';
+
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
+	_putchar('\n');
+
 }
