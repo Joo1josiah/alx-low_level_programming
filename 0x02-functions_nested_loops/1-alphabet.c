@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print alphabet - Prints the lowercase alphabet followed by a new line
+ * print_alphabet - Prints the lowercase alphabet followed by a new line
  * Description: This function prints all the lowercase letters of the
  * English alphabet in sequence, followed by a newline character.
  */
