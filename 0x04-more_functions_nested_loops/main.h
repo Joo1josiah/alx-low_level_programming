@@ -14,5 +14,6 @@ void print_triangle(int size);
 int _putchar(char c);
 int main(void);
 long long find_largest_prime_factor(long long n);
+void print_number(int n);
 
 #endif /* MAIN_H */
