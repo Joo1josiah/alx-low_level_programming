@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 
 long long find_largest_prime_factor(long long n)
 {
