@@ -1,21 +1,6 @@
 #include <stdio.h>
-#include <main.h>
 
-long long find_largest_prime_factor(long long n)
-{
-	long long factor = 2;
-	while (n > 1)
-	{
-		if (n % factor == 0)
-		{
-			n /= factor;
-		}
-		else 
-		{
-			factor++;
-		}
-	}
-}
+long long find_largest_prime_factor(long long n);
 
 int main(void) 
 {
@@ -24,4 +9,20 @@ int main(void)
 
 	printf("%lld\n", largest_prime_factor);
 	return 0;
+}
+
+long long find_largest_prime_factor(long long n)
+{
+        long long factor = 2;
+        while (n > 1)
+        {
+                if (n % factor == 0)
+                {
+                        n /= factor;
+                }
+                else
+                {
+                        factor++;
+                }
+        }
 }
