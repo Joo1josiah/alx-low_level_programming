@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - Copies the string pointed to by src, including the null byte, to dest.
+ * _strcpy - Copies the string pointed to by src,
  * @dest: Pointer to the destination buffer.
  * @src: Pointer to the source string.
  *
