@@ -11,21 +11,20 @@ int _atoi(char *s)
 {
 	int result = 0;
 	int sign = 1;
-	int i = 0;
 
-	if (s[i] == '-')
+	if (*s == '-')
 	{
 		sign = -1;
-		i++;
+		s++;
 	}
-	else if (s[i] == '+')
+	else if (*s == '+')
 	{
-		i++;
+		s++;
 	}
 
-	while (s[i] >= '0' && s[i] <= '9')
+	while (*s >= '0' && *s <= '9')
 	{
-		int digit = s[i] - '0';
+		int digit = *s  - '0';
 
 		if (result > INT_MAX / 10 || (result == INT_MAX / 10 && digit > INT_MAX % 10))
 		{
@@ -36,7 +35,7 @@ int _atoi(char *s)
 		}
 
 		result = result * 10 + digit;
-		i++;
+		s++;
 	}
 	return result * sign;
 }
