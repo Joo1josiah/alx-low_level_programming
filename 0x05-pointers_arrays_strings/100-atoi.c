@@ -30,14 +30,14 @@ int _atoi(char *s)
 		if (result > (INT_MAX - (*s - '0')) / 10)
 		{
 			if (sign == 1)
-				return INT_MAX;
+				return (INT_MAX);
 			else
-				return INT_MIN;
+				return (INT_MIN);
 		}
 
 		result = result * 10 + (*s - '0');
 		s++;
 	}
 
-	return result * sign;
+	return (result * sign);
 }
