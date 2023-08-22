@@ -25,3 +25,13 @@ char *generate_password(void)
 
 	return password;
 }
+int main(void)
+{
+	char *password = generate_password();
+
+	printf("%s\n", password);
+
+	free(password);
+
+	return 0;
+}
