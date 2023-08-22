@@ -6,6 +6,8 @@
 
 char *generate_password(void)
 {
+	int i;
+
 	char *password = malloc(PASSWORD_LENGTH + 1);
 	if (password == NULL)
 	{
@@ -14,8 +16,6 @@ char *generate_password(void)
 	}
 
 	srand(time(NULL));
-
-	int i;
 
 	for (i = 0; i < PASSWORD_LENGTH; i++)
 	{
