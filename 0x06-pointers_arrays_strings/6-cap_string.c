@@ -21,7 +21,11 @@ char *cap_string(char *str)
 		{
 			capitalize_next = 0;
 		}
-		else if (*ptr == ' ' || *ptr == '\t' || *ptr == '\n' || *ptr == ',' || *ptr == ';' || *ptr == '.' || *ptr == '!' || *ptr == '?' || *ptr == '"' || *ptr == '(' || *ptr == ')' || *ptr == '{' || *ptr == '}')
+		else if (*ptr == ' ' || *ptr == '\t' || *ptr == '\n' ||
+			*ptr == ',' || *ptr == ';' || *ptr == '.' ||
+			*ptr == '!' || *ptr == '?' || *ptr == '"' ||
+			*ptr == '(' || *ptr == ')' || *ptr == '{' ||
+			*ptr == '}')
 		{
 			capitalize_next = 1;
 		}
