@@ -28,9 +28,10 @@ unsigned int _strspn(char *s, char *accept)
 		if (!match)
 			break;
 
+		count++;
 		s++;
 		accept = accept - count;
 	}
 
-	return (count);
+	return count;
 }
