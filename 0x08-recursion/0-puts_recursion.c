@@ -7,12 +7,11 @@
  */
 void _puts_recursion(char *s)
 {
-	if (*s == '\0') // Base case: If we encounter the null terminator, print a new line and rand return
+	if (*s == '\0)
     {
 	    _putchar('\n');
 		    return;
     }
-	_putchar(*s); // Print the current character
-	puts_recursion(s + 1); // Recursively call _puts_recursion with the next character
+	_putchar(*s); 
+	puts_recursion(s + 1); 
 }
-
